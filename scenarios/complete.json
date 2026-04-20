@@ -1,0 +1,29 @@
+{
+    "first_name": "Elena",
+    "last_name": "Ramirez",
+    "full_name": "Dr. Elena Ramirez",
+    "dob": "08/14/1980",
+    "gender": "Female",
+    "phone": "512-555-0182",
+    "email": "e.ramirez@example.com",
+    "address": "Austin, TX",
+
+    "npi": "1234567890",
+    "specialty": "Internal Medicine",
+
+    "license_number": "TX-MD-20120043",
+    "license_expiry": "2025-06-30",
+
+    "dea_number": "BR3456789",
+    "dea_expiry": "2026-06-30",
+
+    "board_certified": true,
+    "board_expiry": "2026-12-31",
+
+    "practice_name": "Austin Premier Internal Medicine Group",
+    "tin": "47-XXXXXXX",
+    "medicaid_id": "0098234512",
+
+    "malpractice_insurance": true,
+    "malpractice_expiry": "2025-12-31"
+}
