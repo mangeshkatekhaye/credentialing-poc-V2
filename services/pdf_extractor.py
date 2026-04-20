@@ -2,7 +2,6 @@
 
 import fitz  # PyMuPDF
 from openai import OpenAI
-from openai import OpenAI
 import streamlit as st
 from pathlib import Path
 import json
