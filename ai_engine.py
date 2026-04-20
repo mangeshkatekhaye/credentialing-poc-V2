@@ -1,11 +1,12 @@
-import os
-from dotenv import load_dotenv
+import streamlit as st
 from openai import OpenAI
 
-# Load API key
-load_dotenv()
+api_key = st.secrets.get("OPENAI_API_KEY")
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+if not api_key:
+    client = None
+else:
+    client = OpenAI(api_key=api_key)
 
 def extract_info(text):
     prompt = f"""
