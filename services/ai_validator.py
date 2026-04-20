@@ -13,7 +13,6 @@ else:
 # -------------------------------
 # INITIALIZE CLIENT
 # -------------------------------
-api_key = os.getenv("OPENAI_API_KEY")
 
 if not api_key:
     client = None
