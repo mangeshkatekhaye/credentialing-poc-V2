@@ -3,7 +3,8 @@
 import fitz  # PyMuPDF
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
+from openai import OpenAI
+import streamlit as st
 from pathlib import Path
 import json
 import httpx
@@ -12,10 +13,13 @@ import httpx
 # -------------------------------
 # LOAD ENV
 # -------------------------------
-env_path = Path(__file__).resolve().parent.parent / ".env"
-load_dotenv(dotenv_path=env_path)
 
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = st.secrets.get("OPENAI_API_KEY")
+
+if not api_key:
+    client = None
+else:
+    client = OpenAI(api_key=api_key)
 
 
 # -------------------------------
