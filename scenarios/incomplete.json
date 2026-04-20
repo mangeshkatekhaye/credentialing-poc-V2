@@ -1,0 +1,29 @@
+{
+    "first_name": "John",
+    "last_name": "Doe",
+    "full_name": "Dr. John Doe",
+    "dob": "",
+    "gender": "",
+    "phone": "",
+    "email": "",
+    "address": "",
+
+    "npi": "",
+    "specialty": "",
+
+    "license_number": "TX-12345",
+    "license_expiry": "",
+
+    "dea_number": "",
+    "dea_expiry": "",
+
+    "board_certified": false,
+    "board_expiry": "",
+
+    "practice_name": "",
+    "tin": "",
+    "medicaid_id": "",
+
+    "malpractice_insurance": false,
+    "malpractice_expiry": ""
+}
